@@ -1,0 +1,167 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --azulclaro: #48D6ED;
+    --azuloscuro: #337AB7;
+    --azulnegro: #303342;
+    --negro: #333333;
+    --negro2: #000;
+    --gris: #B2B3B3;
+    --fondo: #FFFEFC;
+    --verdeazul: #157A8A;
+    --Magenta: #9C2759;
+    --blanco: #fff;
+    --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+
+/*Estilos para la barra de navegación*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--negro);
+    font-family: 'Marcellus', serif;
+    font-size: 1.3em;
+    padding: 1rem;
+}
+
+.item{
+    padding: 1rem;
+}
+
+.menu a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+.navbar-button{
+    background-color: var(--azuloscuro);
+    padding: 0.5rem 1rem;
+    color: var(--blanco);
+    border-radius: 5px;
+    font-family: 'Marcellus', serif;
+    font-size: 1em;
+}
+
+.menu i{
+    margin-right: 0.5rem;
+}
+
+.logo img{
+    height: 3rem;
+}
+
+
+/*Estilos para los features*/
+
+#features{
+    background: url(../recursos\ maquetacion/index/bg-features.png);
+    color: white;
+    padding-top: 1rem;
+    }
+
+.features-title{
+    background-color: rgba(0,0,0,0.35);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5em;
+}
+
+.features-description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature{
+    width: 25%;
+    min-width: 180px;
+    max-width: 230px;
+    margin: 0.8rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.feature i{
+    font-size: 2.2em;
+    margin-bottom: 1.5rem;
+}
+
+.feature-blue{
+    background-color: #00325eae;
+}
+
+.feature-black{
+    background-color: rgba(0,0,0,0.59);
+}
+
+/*Estilos para la seccion 1 del Inicio*/
+
+
+.seccion1 {
+    width: 100%;
+    padding: 0px;
+}
+
+.imagen1 {
+    width: 100%;
+    position: relative;
+}
+
+.texto1 {
+    position: absolute;
+    font-size: 30px;
+    width: 50vw;
+    height: 15%;
+    bottom: 1px;
+    left: 5px;
+    padding: 10px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    color: white;
+}
+
+/*Estilos para la seccion 2*/
+
+.seccion2 {
+    width: 95%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    align-items: center;
+    padding: 20px;
+}
+
+.texto2{
+    width: 55%;
+    background-color: #ffffff;
+    float: inline-start;
+    margin-left: 5%;
+    padding: 40px;
+}
+
+
+.imagen2 {
+    width: 200px;
+    height: 250px;
+    margin-left: 30px;
+    background-color: #ffffff;
+}
+
